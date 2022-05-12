@@ -6,7 +6,7 @@ ob_start();
 <head>
     <meta charset="utf-8">
     <title>Özgeçmiş</title>
-    <link href="css/b.css" rel="stylesheet">
+    <link href="css/ozgecmis.css" rel="stylesheet">
     <style>
         .giris{
                 float: right;
