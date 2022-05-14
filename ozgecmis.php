@@ -6,7 +6,7 @@ ob_start();
 <head>
     <meta charset="utf-8">
     <title>Özgeçmiş</title>
-    <link href="css/ozgecmis.css" rel="stylesheet">
+    <link href="css/özgeçmiş.css" rel="stylesheet">
     <style>
         .giris{
                 float: right;
@@ -27,56 +27,79 @@ ob_start();
             }
             else{
                 ?>
-                <a href="http://localhost/webteknoloji/girisyap.php"><button >Giriş Yap</button></a> 
+                <a href="https://b211210061iismet.000webhostapp.com/girisyap.php"><button >Giriş Yap</button></a> 
                 <?php
             }
             ?>
             <nav>
-                <a href="http://localhost/webteknoloji/anasayfa.php">Anasayfa</a>
-                <a href="http://localhost/webteknoloji/hakkimda.php">Hakkımda</a>
-                <a href="http://localhost/webteknoloji/ozgecmis.php">Özgeçmiş</a>
-                <a href="http://localhost/webteknoloji/ilgialanim.php">İlgi Alan.</a>
-                <a href="http://localhost/webteknoloji/sehirim.php">Şehirim</a>
-                <a href="http://localhost/webteknoloji/takimim.php">Takımım</a>
-                <a href="http://localhost/webteknoloji/iletisim.php">İletişim</a>
+                 <a href="https://b211210061iismet.000webhostapp.com/index.php">Anasayfa</a>
+                <a href="https://b211210061iismet.000webhostapp.com/hakkimda.php">Hakkımda</a>
+                <a href="https://b211210061iismet.000webhostapp.com/ozgecmis.php">Özgeçmiş</a>
+                <a href="https://b211210061iismet.000webhostapp.com/ilgialanim.php">İlgi Alan.</a>
+                <a href="https://b211210061iismet.000webhostapp.com/sehirim.php">Şehirim</a>
+                <a href="https://b211210061iismet.000webhostapp.com/takimim.php">Takımım</a>
+                <a href="https://b211210061iismet.000webhostapp.com/iletisim.php">İletişim</a>
                 <div class="animation start-ozgecmis"></div>
              </nav><br><br><br><hr>
 
 
-         <main><h3>ÖZGECMİS</h3>
+         <main>
+             <div class="tavan">ÖZGECMİS</div>
              <article style="padding-top:20px">
-                 <section style="border: 2px groove black;">
-                     <h3 class="dönem">İlk Okul</h3>
+                 <section style="border: 2px groove black;text-align:center;padding-top:25px">
+                 <h2 style="margin-top:0px">Eğitim</h2>
+                 <p> 
+                   İlkokul -> 23 Nisan İlkokulu <br>
+                    Ortaokul -> Karahallılar Ortaokulu <br>
+                    Lise -> İnebey Anadolu Lisesi <br>
+                    Üniversite -> Sakarya Üniversitesi C.E.
+                   </p>
                  </section>
-                 <section style="border: 2px groove black;">
-                 <h3 class="dönem">Orta Okul</h3>
-                 </section>
-                 <section style="border: 2px groove black;">
-                 <h3 class="dönem">Lise</h3>
-                 </section>
-                 <section style="border: 2px groove black;"> 
-                 <h3 class="dönem">Üniversite</h3>
-                 </section>
+                 <section style="border: 2px groove black;text-align:center;padding-top:25px">
+                    <h2 style="margin-top:0px">Hobiler</h2>
+                    <p>
+                        Hobilerim; <br>
+                        -Futbol <br>
+                        -Basketbol <br>
+                        -Borsa <br>
+                        -E-ticaret <br>
+                        -Yazılım
+                    </p>
+                </section>
+                 <section style="border: 2px groove black;text-align:center;padding-top:25px">
+                 <h2 style="margin-top:0px">Hakkımda</h2>
+                    <p>Bildiğim yazılım dilleri; <br>
+                    - C#,C++,HTML,PHP,JS  <br> <br>
+                    Bildiğim Diller; <br>
+                    -Türkçe, İngilizce
+                </p>
+                </section>
+                <section style="border: 2px groove black;text-align:center;padding-top:25px">
+                <h2 style="margin-top:0px;">Bilgilerim</h2>
+                <p>Ad = İsmet <br>
+                    Soyad = Özkan <br>
+                    Telefon = 05419153760 <br>
+                    Doğum Tarihi = 12.08.2003 <br>
+                    E-mail = ozkanismet2003@gmail.com    
+            </p>
+                </section>
+               
+                <div class="foto">
+                    <img src="foto/üni.jpg" alt="">
+                </div>        
+                <div class="foto">
+                <img src="foto/borsa.jpg" alt="">
+             </div>       
+                 <div class="foto">
+                 <img src="foto/üni" alt="">
+                </div>       
              </article>
+
+              
             
-             <article class="article" style="padding-top:20px">
-                 <section class="section" style="margin-top:10px;">
-                    <img src="foto/okul/ilkokul.jpg" alt="23 Nisan İlkokulu">
-                    <i>23 Nisan İlkokulu </i>
-                </section>
-                <section  class="section" style="margin-top:80px;">
-                    <img src="foto/okul/ortaokul.jpg" alt="Karahallılar Ortaokulu">
-                    <i>Karahallılar Ortaokulu</i>
-                </section>
-                <section  class="section" style="margin-top:70px;">
-                    <img src="foto/okul/lise.jpg" alt="İnebey Anadolu Lisesi" >
-                    <i>İnebey Anadolu Lisesi</i>
-                </section>
-                <section  class="section" style="margin-top:65px;">
-                    <img src="foto/okul/üni.jpg" alt="Sakarya Üniversitesi">
-                    <i>Sakarya Üniversitesi</i>
-                </section>
-             </article>
-        </main>
+        </main>  
+
+        <br>
+         
 </body>
 </html>

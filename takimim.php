@@ -19,18 +19,18 @@ ob_start();
             }
             else{
                 ?>
-                <a href="http://localhost/webteknoloji/girisyap.php"><button >Giriş Yap</button></a> 
+                <a href="https://b211210061iismet.000webhostapp.com/girisyap.php"><button >Giriş Yap</button></a> 
                 <?php
             }
             ?>
             <nav>
-                <a href="http://localhost/webteknoloji/anasayfa.php">Anasayfa</a>
-                <a href="http://localhost/webteknoloji/hakkimda.php">Hakkımda</a>
-                <a href="http://localhost/webteknoloji/ozgecmis.php">Özgeçmiş</a>
-                <a href="http://localhost/webteknoloji/ilgialanim.php">İlgi Alan.</a>
-                <a href="http://localhost/webteknoloji/sehirim.php">Şehirim</a>
-                <a href="http://localhost/webteknoloji/takimim.php">Takımım</a>
-                <a href="http://localhost/webteknoloji/iletisim.php">İletişim</a>
+                <a href="https://b211210061iismet.000webhostapp.com/index.php">Anasayfa</a>
+                <a href="https://b211210061iismet.000webhostapp.com/hakkimda.php">Hakkımda</a>
+                <a href="https://b211210061iismet.000webhostapp.com/ozgecmis.php">Özgeçmiş</a>
+                <a href="https://b211210061iismet.000webhostapp.com/ilgialanim.php">İlgi Alan.</a>
+                <a href="https://b211210061iismet.000webhostapp.com/sehirim.php">Şehirim</a>
+                <a href="https://b211210061iismet.000webhostapp.com/takimim.php">Takımım</a>
+                <a href="https://b211210061iismet.000webhostapp.com/iletisim.php">İletişim</a>
                 <div class="animation start-takımım"></div>
              </nav><br><br><br><hr>
             

@@ -38,7 +38,7 @@ ob_start();
             $message = "Giriş Başarılı Yönlendiriliyorsunuz..";
             echo "<script type='text/javascript'>alert('$message');</script>";
               $_SESSION['Kullanici']= $GelenKadi;
-              header("refresh:1 , url=anasayfa.php");
+              header("refresh:1 , url=index.php");
 
           }
           else

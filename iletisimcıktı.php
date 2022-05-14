@@ -24,7 +24,7 @@
             <div style="margin-top:20px">  Sikayet : &nbsp   <?php echo $sikayet ?><br></div>       
          </div>
          <div class="buttonyer">
-         <a href="http://localhost/webteknoloji/anasayfa.php"><button onclick>Anasayfa</button></a>
+         <a href="https://b211210061iismet.000webhostapp.com/index.php"><button onclick>Anasayfa</button></a>
            </div>
         </div>
     </body>
